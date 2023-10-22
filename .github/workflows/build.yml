@@ -12,7 +12,7 @@ on:
         default: 'false'
 
 env:
-  version: m110-cfc2230
+  version: m110-fd117f8
 
 jobs:
   macos:
