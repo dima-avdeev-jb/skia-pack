@@ -12,7 +12,7 @@ on:
         default: 'false'
 
 env:
-  version: m110-0548612
+  version: m110-7c1436c
 
 jobs:
   macos:
