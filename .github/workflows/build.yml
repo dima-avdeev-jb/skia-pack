@@ -12,15 +12,15 @@ on:
         default: 'false'
 
 env:
-  version: m110-fd117f8
+  version: m110-cb1b3ef
 
 jobs:
   macos:
     runs-on: macos-11
     strategy:
       matrix:
-        target: ["ios", "iosSim"]
-        machine: ["arm64"]
+        target: ["iosSim"]
+        machine: ["x64", "arm64"]
         build_type: [Release, Debug]
       fail-fast: false
     steps:
